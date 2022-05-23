@@ -1,0 +1,38 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Gericht {
+-recipeNumber: String
+
+
+-bezeichung: String
+-zutaten: List<Zutat>
+-beschreibung: String
+-ursprungsLand: String
+-fuerAnzPersonen: Integer
+
+}
+
+class Zutat{
+-bezeichung: String
+-mengeInGramm: BigDecimal
+}
+
+Gericht ||--|{ Zutat
+
+class User{
+-userUUID: String
+-userName: String
+-password: String
+-userRole: String
+}
+
+class Land(optional){
+-bezeichnung: String
+-flaecheInKM: BigDecimal
+-einwohner: Integer
+-staatsgruendung: Integer
+}
+
+@enduml
+
