@@ -1,0 +1,75 @@
+[
+    {
+        "recipeNumber": "IT-12864",
+        "bezeichnung": "Spaghetti Bolognese",
+        "zutaten": [
+            {
+        "bezeichnung": "Spaghetti",
+        "mengeInGramm": 200
+            },{
+        "bezeichnung": "Tomatensauce",
+        "mengeInGramm": 60
+            },{
+        "bezeichnung": "Gehacktes Rindfleisch",
+        "mengeInGramm": 80
+            }
+        ],
+        "beschreibung": "Spaghetti mit Tomatensauce und Rindfleisch",
+        "ursprungsLand": "Italien",
+        "fuerAnzPersonen": 2
+    },
+    {
+        "recipeNumber": "CH55421",
+        "bezeichnung": "Sucuk mit Ei",
+        "zutaten": [
+            {
+        "bezeichnung": "Sucuk",
+        "mengeInGramm": 100
+            },{
+        "bezeichnung": "Ei",
+        "mengeInGramm": 200
+            }
+        ],
+        "beschreibung": "Spiegeleier und Sucuk in der Pfanne zubereitet",
+        "ursprungsLand": "Schweiz",
+        "fuerAnzPersonen": 1
+    },
+    {
+        "recipeNumber": "IT54569",
+        "bezeichnung": "Pizza Margherita",
+        "zutaten": [
+            {
+        "bezeichnung": "Pizzateig",
+        "mengeInGramm": 350
+            },{
+        "bezeichnung": "Tomatensauce",
+        "mengeInGramm": 80
+            },{
+        "bezeichnung": "Käse",
+        "mengeInGramm": 50
+            }
+        ],
+        "beschreibung": "Klassische Pizza Margherita, ohne zusätzliche Toppings.",
+        "ursprungsLand": "Italien",
+        "fuerAnzPersonen": 2
+    },
+    {
+        "recipeNumber": "US66451",
+        "bezeichnung": "Cheeseburger",
+        "zutaten": [
+            {
+        "bezeichnung": "Gehacktes Rindfleisch",
+        "mengeInGramm": 300
+            },{
+        "bezeichnung": "Burgerbrötchen",
+        "mengeInGramm": 100
+            },{
+        "bezeichnung": "Käsescheiben",
+        "mengeInGramm": 25
+            }
+        ],
+        "beschreibung": "Simpler Cheeseburger mit Brot, Patty und Schmelzkäse.",
+        "ursprungsLand": "USA",
+        "fuerAnzPersonen": 1
+    },
+]

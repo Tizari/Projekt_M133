@@ -1,0 +1,44 @@
+[
+     {
+        "bezeichnung": "Spaghetti",
+        "mengeInGramm": 200
+            },{
+        "bezeichnung": "Tomatensauce",
+        "mengeInGramm": 60
+            },{
+        "bezeichnung": "Gehacktes Rindfleisch",
+        "mengeInGramm": 80
+            },{
+        "recipeNumber": "CH55421",
+        "bezeichnung": "Sucuk mit Ei",
+        "zutaten": [
+            {
+        "bezeichnung": "Sucuk",
+        "mengeInGramm": 100
+            },{
+        "bezeichnung": "Ei",
+        "mengeInGramm": 200
+            },{
+        "recipeNumber": "IT54569",
+        "bezeichnung": "Pizza Margherita",
+        "zutaten": [
+            {
+        "bezeichnung": "Pizzateig",
+        "mengeInGramm": 350
+            },{
+        "bezeichnung": "Tomatensauce",
+        "mengeInGramm": 80
+            },{
+        "bezeichnung": "Käse",
+        "mengeInGramm": 50
+            },{
+        "bezeichnung": "Gehacktes Rindfleisch",
+        "mengeInGramm": 300
+            },{
+        "bezeichnung": "Burgerbrötchen",
+        "mengeInGramm": 100
+            },{
+        "bezeichnung": "Käsescheiben",
+        "mengeInGramm": 25
+            }
+]   
