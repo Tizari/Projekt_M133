@@ -94,7 +94,7 @@ public class DataHandler {
      */
     private void readIngredientJSON() {
         try {
-            String path = Config.getProperty("ZutatJSON");
+            String path = Config.getProperty("zutatJSON");
             byte[] jsonData = Files.readAllBytes(
                     Paths.get(path)
             );
