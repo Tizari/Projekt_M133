@@ -1,5 +1,6 @@
 package ch.bzz.Projekt_M133.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Gericht {
@@ -13,12 +14,19 @@ public class Gericht {
     private Integer fuerAnzPersonen;
 
 
+    public Gericht(String recipeNumber, String bezeichung, List<Zutat> zutaten, String beschreibung, String ursprungsLand, Integer fuerAnzPersonen) {
+        this.recipeNumber = recipeNumber;
+        this.bezeichung = bezeichung;
+        this.zutaten = new ArrayList<>();
+        this.beschreibung = beschreibung;
+        this.ursprungsLand = ursprungsLand;
+        this.fuerAnzPersonen = fuerAnzPersonen;
+    }
+
     /**
      * constructor: initialize attributes
      */
-    public Gericht() {
 
-    }
 
     public String getRecipeNumber() {
         return recipeNumber;

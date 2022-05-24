@@ -1,9 +1,14 @@
 package ch.bzz.Projekt_M133.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.math.BigDecimal;
 
 public class Zutat {
     // declare attributes
+    @JsonIgnore
+    private Gericht gericht;
+
     private String bezeichnung;
     private BigDecimal mengeInGramm;
 

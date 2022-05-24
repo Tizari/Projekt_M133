@@ -29,6 +29,7 @@ public class Config extends Application {
         HashSet providers = new HashSet<Class<?>>();
         providers.add(GerichtService.class);
         providers.add(ZutatService.class);
+        providers.add(TestService.class);
         return providers;
     }
 
